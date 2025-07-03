@@ -80,18 +80,9 @@ This project is open-source and free to use for educational or personal purposes
 ## 👩‍💻 Author
 
 **Janvi Shetty**  
-_Design, content, and development by me_ 😊  
-[LinkedIn](https://www.linkedin.com/) (optional) • [GitHub](https://github.com/)
+_Design, content, and development by me_  
+• [GitHub](https://github.com/)
 
----
-
-## 🙌 Future Improvements
-
-- Add JavaScript interactivity (e.g., dynamic menu filters, gallery slider)
-- Make the layout fully responsive with CSS media queries
-- Add a blog or event section for community updates
-- Add animations using CSS or GSAP
-- Form validations on `contact.html`
 
 ---
 
