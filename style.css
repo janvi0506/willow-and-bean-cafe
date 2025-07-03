@@ -1,0 +1,335 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  background-color: #faf6f1;
+  color: #3a2f2f;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: #eae2d6;
+  border-bottom: 4px solid #d6c6b8;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #5b4033;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5b4033;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a1664e;
+}
+
+figure {
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+figcaption {
+  font-style: italic;
+  color: #7b6b5b;
+  margin-top: 8px;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding-bottom: 100px;
+}
+
+h2, h3 {
+  color: #4d3d33;
+  margin-top: 40px;
+}
+
+ul {
+  margin: 15px 0 30px 20px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 25px 0;
+  padding-left: 20px;
+  border-left: 4px solid #d4b8a3;
+  color: #5a4637;
+  background-color: #fff7f1;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #d6c6b8;
+}
+
+th {
+  background-color: #e0d3c2;
+  color: #3f2e23;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 0.9rem;
+  background-color: #eae2d6;
+  color: #5a4637;
+  border-top: 2px solid #d6c6b8;
+}
+
+/* Details / Trivia Section */
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+details p {
+  margin: 10px 0 20px 15px;
+}
+
+/* Anchor Links */
+a {
+  color: #7b4f3f;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #a1664e;
+}
+
+/* Responsive Menu Push (for testing vertical spacing) */
+#about {
+  padding-bottom: 80px;
+}
+/* Contact Page Form Styles */
+form {
+  margin-top: 30px;
+  background-color: #fff7f1;
+  padding: 25px;
+  border: 1px solid #d6c6b8;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #5b4033;
+  margin-bottom: 15px;
+}
+
+form p {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4d3d33;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d6c6b8;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #3a2f2f;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #a1664e;
+  box-shadow: 0 0 5px rgba(161, 102, 78, 0.2);
+}
+
+textarea {
+  resize: vertical;
+}
+/* Contact Info Styles */
+#contact-info {
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #fffdfb;
+  border-left: 4px solid #d4b8a3;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+#contact-info h2 {
+  margin-bottom: 15px;
+  color: #5b4033;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.8;
+  color: #3a2f2f;
+}
+
+address a {
+  color: #7b4f3f;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #a1664e;
+}
+.side-by-side {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.side-by-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.community-gallery {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.community-gallery figure {
+  flex: 1 1 300px;
+  max-width: 400px;
+  margin: 0;
+  text-align: center;
+}
+
+.community-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.community-gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.community-gallery figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #6b5448;
+  font-size: 0.95rem;
+}
+.community-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.community-gallery img {
+  flex: 1;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.community-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.community-gallery figure {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.community-gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.community-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .side-by-side {
+    flex-direction: column;
+  }
+
+  .community-gallery figure {
+    flex: 1 1 100%;
+  }
+
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
